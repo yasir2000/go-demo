@@ -116,4 +116,42 @@ func main() {
 	fmt.Printf("array's size in bytes : %d \n", unsafe.Sizeof(j))
 	fmt.Printf("array's size in bytes : %d \n", unsafe.Sizeof(s))
 
+	numbers1 := []int{2, 3}
+
+	// append() returns a new slice after appending a value to its end
+	numbers1 = append(numbers1, 10)
+	fmt.Println(numbers) //-> [2 3 10]
+
+	// appending more elements at once
+	numbers1 = append(numbers1, 20, 30, 40)
+	fmt.Println(numbers1) //-> [2 3 10 20 30 40]
+
+	// appending all elements of a slice to another slice
+	n1 := []int{100, 200, 300}
+	numbers1 = append(numbers1, n1...) // ... is the ellipsis operator
+	fmt.Println(numbers1)              // -> [2 3 10 20 30 40 100 200 300]
+
+	//** Slice's Length and Capacity **//
+
+	nums1 := []int{1}
+	fmt.Printf("Length: %d, Capacity: %d \n", len(nums1), cap(nums1)) // Length: 1, Capacity: 1
+
+	nums1 = append(nums1, 2)
+	fmt.Printf("Length: %d, Capacity: %d \n", len(nums1), cap(nums1)) // Length: 2, Capacity: 2
+
+	nums1 = append(nums1, 3)
+	fmt.Printf("Length: %d, Capacity: %d \n", len(nums1), cap(nums1)) // Length: 3, Capacity: 4
+	// the capacity of the new backing array is now larger than the length
+	// to avoid creating a new backing array when the next append() is called.
+
+	nums1 = append(nums1, 4, 5)
+	fmt.Printf("Length: %d, Capacity: %d \n", len(nums1), cap(nums1)) // Length: 5, Capacity: 8
+
+	// copy() function copies elements into a destination slice from a source slice and returns the number of elements copied.
+	// if the slices don't have the same no of elements, it copies the minimum of length of the slices
+	src1 := []int{10, 20, 30}
+	dst1 := make([]int, len(src1))
+	nn1 := copy(dst1, src1)
+	fmt.Println(src1, dst1, nn1) // => [10 20 30] [10 20 30] 3
+
 }
