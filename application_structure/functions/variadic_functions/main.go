@@ -40,7 +40,7 @@ func main() {
 	f2(nums...)
 	fmt.Println("Nums:", nums)
 	s, p := SumAndProduct(2.0, 5., 10, 2.3, 87, 1.3)
-	fmt.Println(s, p)
+	defer fmt.Println(s, p)
 	info := personInformation(30, "Wolfgang", "Amadeus", "Mozart")
 	fmt.Printf("%T\n, %v", info, info)
 
