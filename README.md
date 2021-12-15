@@ -32,14 +32,14 @@ This course was very interesting, the instructor Romanian @Andrei Dumitrescu was
 
 I've purchased all instructor courses for the same area of interests and highly recommend to take this course for self-paced learning the fundamental basics of Go (but complete not missing any concept)
 
-[https://www.udemy.com/course/master-go-programming-complete-golang-bootcamp/](Udemy - Master Golang Programming - The Complete Go BootCamp 2022 )
+[Udemy - Master Golang Programming - The Complete Go BootCamp 2022 ] (https://www.udemy.com/course/master-go-programming-complete-golang-bootcamp/)
 
 My course code repo for all course topics in :
 
-[https://lnkd.in/e33HtWHE](My repo)
+[My Repo] (https://lnkd.in/e33HtWHE)
 
 I'm going to regularly update and enrich this repo for more side projects in areas above.
 
 An alternative repo for same course:
 
-[https://lnkd.in/e8R8KP3u](Altern repo)
+[Altern Repo] (https://lnkd.in/e8R8KP3u)
