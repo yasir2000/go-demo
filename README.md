@@ -1,4 +1,4 @@
-# go-demo
+# Master Golang Programming - The Complete Go BootCamp 2022 - Udemy Course
 
 <!-- Output copied to clipboard! -->
 
@@ -26,7 +26,7 @@ Conversion notes:
 
 Finished my second Udemy Golang course (Lectures: 209, Video: 14.5 total hours) in 20 days, my roadmap is moving stepwise and am committed for the track for both Go and Python for
 
-"Cloud, Network Programming, Operating System Programming, Automation Tools, Web Applications and Microservices"
+# Cloud, Network Programming, Operating System Programming, Automation Tools, Web Applications and Microservices
 
 This course was very interesting, the instructor Romanian @Andrei Dumitrescu was ultimately patient, with clear language, sound of skillfulness in the architecture of Golang, he covered broad if not most of the critical topics, gave some notes, tips, do's and dont's, ...etc
 
