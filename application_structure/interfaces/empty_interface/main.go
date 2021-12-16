@@ -26,7 +26,7 @@ func main() {
 	// fro above example, if we want to use a function that accepts a slice as argument
 	// or a method that works on slice value, we must retrieve the dynamic value using an assertion
 	fmt.Println(empty.([]int))      //assertion but we had to put (.) because its a slice assertion
-	fmt.Println(len(empty.([]int))) //len of interface after getting its dynamic value using assertion
+	fmt.Println(len(empty.([]int))) //len of interface after getting its dynamic concrete value using assertion
 	// empty interfaces are useful to handle values of unkown type
 	// you can pass an empty interface type as a function parameter of any type
 	you := person{}
